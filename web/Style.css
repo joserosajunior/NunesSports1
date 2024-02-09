@@ -1,0 +1,74 @@
+      * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        header {
+            width: 100%;
+            background: linear-gradient(to right, #0047ab, #4298f5); /* Degradê de azul */
+            border: 2px solid #feca1b; /* Borda amarela */
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            color: #fff; /* Cor do texto */
+            margin-bottom: 20px;
+        }
+        nav {
+            width: 100%;
+            background-color: #4298f5; /* Azul */
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            color: white; /* Cor do texto */
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+       
+        main {
+            width: 90%;
+            margin: 0 auto;
+        }
+        form {
+            text-align: center;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+            color: #0047ab; /* Azul */
+        }
+        input[type="text"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4298f5; /* Azul */
+            color: #fff; /* Cor do texto */
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0047ab; /* Azul mais escuro */
+        }
+        
+        iframe{
+             width: 90%;
+             margin: 0 auto;
+        }
